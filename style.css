@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+main{
+    height: calc(100vh - 70px);
+}
+footer{
+    background-color: blue;
+    height: 70px;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+}
+.choose-bar{
+    background-color: blueviolet;
+    width: 200px;
+    padding: 20px 20px 0 20px;
+    float: left;
+    height: 100%;
+}
+.principale{
+    background-color: coral;
+    height: 100%;
+}
+.upgrade-bar{
+    background-color: darkgoldenrod;
+    padding: 20px 0;
+    height: 60px;
+}
+.upgrade-button{
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    position: relative;
+    float: right;
+    font-size: 10px;
+}
