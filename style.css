@@ -3,34 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-main{
-    height: calc(100vh - 70px);
-}
-footer{
-    background-color: blue;
-    height: 70px;
-    padding: 20px 0;
-    position: fixed;
-    bottom: 0;
-    right: 0%;
-    left: 0%;
-    width: 100%;
-}
 .choose-bar{
-    background-color: blueviolet;
-    width: 200px;
-    padding: 20px 20px 0 20px;
+    background-color: rgb(255, 246, 127);
+    width: 250px;
     float: left;
-    height: 100%;
+    padding: 20px 20px 0 20px;
 }
 .principale{
-    background-color: coral;
-    height: 100%;
+    height: 100px;
+    float: right;
+    width: calc(100% - 250px);
 }
 .upgrade-bar{
     background-color: darkgoldenrod;
     padding: 20px 0;
-    height: 60px;
 }
 .upgrade-button{
     padding: 5px;
@@ -41,4 +27,27 @@ footer{
     position: relative;
     float: right;
     font-size: 10px;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.music-list{
+    background-color: darksalmon;
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+}
+ul{
+    list-style-type: none;    
+}
+.music-list ul li{
+    display: inline-block;
+    font-size: 10px;
+    text-align: center;
+    margin: 5px;
+}
+.music-list a{
+    color: white;
 }
