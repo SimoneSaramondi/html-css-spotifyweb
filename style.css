@@ -8,10 +8,11 @@
     width: 250px;
     float: left;
     padding: 20px 20px 0 20px;
-    height: calc(100vh - 60px);
+    height: 100vh;
+   /* height: calc(100vh - 60px);*/
 }
 .principale{
-    height: 100px;
+    height: 100%;
     float: right;
     width: calc(100% - 250px);
 }
@@ -36,9 +37,18 @@
 }
 .music-list{
     background-color: darksalmon;
-    padding: 10px;
+    /*padding: 10px 0;*/
     width: 500px;
     margin: auto;
+    margin-bottom: 0;
+}
+.music-list ul{
+    padding: 5px;
+    margin-bottom: 0;
+}
+.overflow h5,
+.overflow h6{
+    text-align: center;
 }
 ul{
     list-style-type: none;    
@@ -75,6 +85,19 @@ ul{
     max-width: 100%;
     margin: 5px;
 }
+.overflow{
+    overflow-y: scroll;
+    height: 500px;
+   /* height: calc(100vh - 60px);*/
+    background-color: lightblue;
+}
+.row{
+    width: 100%;
+    padding: 20px;
+}
+.block-music-third img{
+    border-radius: 50%;
+}
 
 
 
@@ -83,7 +106,7 @@ ul{
 
 
 
-
+/*
 .footer{
     background-color: blue;
     padding: 10px 0;
@@ -97,3 +120,4 @@ ul{
     border: 1px solid;
     display: inline-block;
 }
+*/
