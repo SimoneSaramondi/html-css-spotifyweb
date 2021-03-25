@@ -8,6 +8,7 @@
     width: 250px;
     float: left;
     padding: 20px 20px 0 20px;
+    height: calc(100vh - 60px);
 }
 .principale{
     height: 100px;
@@ -58,4 +59,41 @@ ul{
 }
 .choose-bar p{
     padding-top: 8px;
+}
+.made-playlist{
+    height: 250px;
+    border: solid;
+    overflow-y: scroll;
+}
+.dowload-app li:first-of-type{
+    border-bottom: 1px solid;
+}
+.first-list{
+    margin-top: 10px;
+}
+.block-music img{
+    max-width: 100%;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: blue;
+    padding: 10px 0;
+    height: 60px;  
+    position: fixed;
+    width: 100%;
+}
+.box{
+    width: 33%;
+    height: 100%;
+    border: 1px solid;
+    display: inline-block;
 }
