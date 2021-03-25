@@ -146,3 +146,11 @@ ul{
     left: 15px;
     font-size: 25px;
 }
+.ultima-colonna{
+    position: relative;
+    top: 20px;
+}
+.ultima-colonna-barra{
+    position: relative;
+    bottom: 5px;
+}
