@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .choose-bar{
-    background-color: rgb(255, 246, 127);
+    background-color:rgb(202, 59, 59);
     width: 250px;
     float: left;
     padding: 20px 20px 0 20px;
@@ -17,7 +17,7 @@
     width: calc(100% - 250px);
 }
 .upgrade-bar{
-    background-color: darkgoldenrod;
+    background-color: rgb(8, 11, 18);
     padding: 20px 0;
 }
 .upgrade-button{
@@ -67,6 +67,9 @@ ul{
     float: left;
     margin-right: 8px
 }
+.choose-bar{
+    color: white;
+}
 .choose-bar p{
     padding-top: 8px;
 }
@@ -106,18 +109,18 @@ ul{
 
 
 
-/*
+
 .footer{
     background-color: blue;
     padding: 10px 0;
-    height: 60px;  
-    position: fixed;
+    height: 60px; 
+    position: fixed; 
     width: 100%;
+    bottom: 0;
 }
 .box{
     width: 33%;
     height: 100%;
-    border: 1px solid;
+    border: 2px solid;
     display: inline-block;
 }
-*/
