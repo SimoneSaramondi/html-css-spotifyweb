@@ -51,3 +51,11 @@ ul{
 .music-list a{
     color: white;
 }
+.plus-box{
+    font-size: 35px;
+    float: left;
+    margin-right: 8px
+}
+.choose-bar p{
+    padding-top: 8px;
+}
