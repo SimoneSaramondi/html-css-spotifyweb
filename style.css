@@ -232,11 +232,24 @@ ul{
    background-color: rgba(0,0,0, 0.7);
    background-size: 200px;
 }
+.dowload-app:hover,
+.playlist:hover,
+.mia-playlist:hover,
+.made-playlist li:hover,
+.first-list li:hover,
+.music-list li a:hover{
+    color: white;
+    text-decoration: none;
+}
+
 
 
 /*RANDOM*/
 .color-white{
     color: white;
+}
+.color-lightgrey{
+    color: lightgray;
 }
 .background-color-black{
     background-color: black;
