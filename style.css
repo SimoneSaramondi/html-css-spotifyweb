@@ -195,6 +195,7 @@ ul{
         position: relative;
         left: -6px;
     }
+    
 }
 @media all and (min-width:768px) and (max-width: 991px){
     .play{
@@ -212,6 +213,27 @@ ul{
         font-size: 15px;
     }
 }
+
+
+/*HOVER*/
+.upgrade-button:hover{
+    width: 150px;
+}
+.play-circle{
+    display: none;
+}
+.block-music div:hover .play-circle{
+   display: block;
+   width: 25px;
+   position: relative;
+   bottom: 75px;
+   left: 45px;
+   font-size: 30px;
+   background-color: rgba(0,0,0, 0.7);
+   background-size: 200px;
+}
+
+
 /*RANDOM*/
 .color-white{
     color: white;
