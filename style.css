@@ -8,8 +8,7 @@
     width: 250px;
     float: left;
     padding: 20px 20px 0 20px;
-    height: 100vh;
-   /* height: calc(100vh - 60px);*/
+    height: 100%;
 }
 .principale{
     height: 100%;
@@ -37,7 +36,7 @@
 }
 .music-list{
     background-color: darksalmon;
-    /*padding: 10px 0;*/
+    
     width: 500px;
     margin: auto;
     margin-bottom: 0;
@@ -74,12 +73,17 @@ ul{
     padding-top: 8px;
 }
 .made-playlist{
-    height: 250px;
     border: solid;
     overflow-y: scroll;
 }
 .dowload-app li:first-of-type{
     border-bottom: 1px solid;
+}
+.dowload-app{
+    position: fixed;
+    bottom: 80px;
+    left: 20px;
+    z-index: 1;
 }
 .first-list{
     margin-top: 10px;
@@ -90,8 +94,7 @@ ul{
 }
 .overflow{
     overflow-y: scroll;
-    height: 900px;
-   /* height: calc(100vh - 60px);*/
+    height: calc(100vh - 100px);  
     background-color: lightblue;
 }
 .row{
@@ -106,23 +109,15 @@ ul{
     position: relative;
     top:10px;
 }
-
-
-
-
-
-
-
-
-
-
+.blocco-superiore{
+    height: calc(100vh - 80px);
+}
 .footer{
     background-color: rgb(152, 152, 206);
     padding: 10px 0;
     height: 80px; 
     position: fixed; 
     width: 100%;
-    bottom: 0;
 }
 .box-footer{
     height: 60px;
@@ -153,4 +148,36 @@ ul{
 .ultima-colonna-barra{
     position: relative;
     bottom: 5px;
+}
+.logo-small-spotify{
+    height: 50px;
+    display: none;
+}
+.logo-small-spotify img{
+    height: 30px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.logo-small-spotify.profile{
+    height: 30px;
+    position: relative;
+    top: calc(100% - 200px);
+}
+@media all and (max-width: 767px){
+    .logo-small-spotify{
+        display: block;
+    }
+    .logo-large-spotify,
+    .first-list,
+    .playlist,
+    .mia-playlist,
+    .made-playlist,
+    .dowload-app{
+        display: none;
+    }
+    .choose-bar{
+        width: 80px;
+        padding: 20px;
+    }
 }
