@@ -21,9 +21,8 @@
 }
 .upgrade-button{
     padding: 5px;
-    border-radius: 15px;
     border: 1px solid white;
-    color: white;
+    border-radius: 15px;
     background-color: transparent;
     position: relative;
     float: right;
@@ -58,22 +57,15 @@ ul{
     text-align: center;
     margin: 5px;
 }
-.music-list a{
-    color: white;
-}
 .plus-box{
     font-size: 35px;
     float: left;
     margin-right: 8px
 }
-.choose-bar{
-    color: white;
-}
 .choose-bar p{
     padding-top: 8px;
 }
 .made-playlist{
-    border: solid;
     overflow-y: scroll;
 }
 .dowload-app li:first-of-type{
@@ -113,7 +105,7 @@ ul{
     height: calc(100vh - 80px);
 }
 .footer{
-    background-color: rgb(152, 152, 206);
+    background-color: rgb(40, 40, 40);
     padding: 10px 0;
     height: 80px; 
     position: fixed; 
@@ -122,7 +114,6 @@ ul{
 .box-footer{
     height: 60px;
     width: 60px;
-    border: 1px solid white;
 }
 .box-footer img{
     width: 100%;
@@ -133,7 +124,6 @@ ul{
     top: 20px;
 }
 .chic-one{
-    border: 1px solid;
     height: 30px;
 }
 .play{
@@ -180,4 +170,55 @@ ul{
         width: 80px;
         padding: 20px;
     }
+    .principale{
+        width: calc(100% - 80px);
+    }
+    .box-footer{
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 10px;
+    }
+    .footer-h4,
+    .footer-p{
+        font-size: 12px;
+    }
+    .chic-one div{
+        position: relative;
+        right: 20px;
+    }
+    .chic-one .my-bar{
+        position: relative;
+        left: 3px;
+    }
+    .play{
+        position: relative;
+        left: -6px;
+    }
+}
+@media all and (min-width:768px) and (max-width: 991px){
+    .play{
+        position: relative;
+        left: 5px;
+    }
+    .box-footer{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top: 10px;
+    }
+    .footer-h4,
+    .footer-p{
+        font-size: 15px;
+    }
+}
+/*RANDOM*/
+.color-white{
+    color: white;
+}
+.background-color-black{
+    background-color: black;
+}
+.background-color-black-soft{
+    background-color: rgb(20, 25, 34);
 }
