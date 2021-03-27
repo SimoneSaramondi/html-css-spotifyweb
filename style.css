@@ -325,11 +325,19 @@ ul{
 .dowload-app .dowload:hover,
 .playlist:hover,
 .mia-playlist:hover,
-.made-playlist li:hover,
-.first-list li:hover,
+.made-playlist li:hover{
+    color: white;
+    text-decoration: none;
+}
+.first-list li:hover{
+    color: white;
+    text-decoration: none;
+    border-left: 1px solid rgb(100, 211, 100);
+}
 .music-list li a:hover{
     color: white;
     text-decoration: none;
+    border-bottom: 1px solid rgb(100, 211, 100);
 }
 .icon-footer:hover{
     font-size: 30px;
