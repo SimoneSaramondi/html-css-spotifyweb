@@ -75,7 +75,8 @@ ul{
     position: fixed;
     bottom: 80px;
     left: 20px;
-    z-index: 1;
+    background-color: black;
+    z-index: 2;
 }
 .first-list{
     margin-top: 10px;
@@ -162,7 +163,7 @@ ul{
     position: absolute;
     bottom: 5px;
     left: 80px;
-  /*  display: none;*/
+   display: none;
     
 }
 .bal-bar-first{
@@ -173,7 +174,7 @@ ul{
     position: absolute;
     bottom: 5px;
     left: 230px;
-    /*display: none;*/
+    display: none;
     
 }
 @media all and (max-width: 767px){
@@ -217,8 +218,27 @@ ul{
         position: relative;
         left: -6px;
     }
-    
-    
+    .bal-bar-second{
+        height: 15px;
+        width: 15px;
+        background-color: rgb(156, 199, 240);
+        border-radius: 50% ;
+        position: absolute;
+        bottom: 7px;
+        left: 23px;
+        display: none;
+        
+    }
+    .bal-bar-first{
+        height: 15px;
+        width: 15px;
+        background-color: rgb(156, 199, 240);
+        border-radius: 50% ;
+        position: absolute;
+        bottom: 22px;
+        left: 110px;
+        display: none;        
+    } 
 }
 @media all and (min-width:768px) and (max-width: 991px){
     .play{
@@ -243,7 +263,7 @@ ul{
         position: absolute;
         bottom: 5px;
         left: 20px;
-      /*  display: none;*/
+        display: none;
         
     }
     .bal-bar-first{
@@ -254,10 +274,8 @@ ul{
         position: absolute;
         bottom: 5px;
         left: 180px;
-        /*display: none;*/
-        
-    }
-    
+        display: none;        
+    }    
 }
 @media all and (min-width: 992px) and (max-width: 1204px){
     .bal-bar-second{
@@ -268,8 +286,7 @@ ul{
         position: absolute;
         bottom: 5px;
         left: 30px;
-      /*  display: none;*/
-        
+        display: none;        
     }
     .bal-bar-first{
         height: 20px;
@@ -279,7 +296,7 @@ ul{
         position: absolute;
         bottom: 5px;
         left: 200px;
-        /*display: none;*/        
+        display: none;*       
     }
     .footer-h4,
     .footer-p{
@@ -288,7 +305,6 @@ ul{
         left: 10px;
     }
 }
-
 
 /*HOVER*/
 .upgrade-button:hover{
@@ -304,8 +320,7 @@ ul{
    bottom: 100px;
    left: 80px;
    font-size: 50px;
-   background-color: rgba(0,0,0, 0.7);
-  
+   background-color: rgba(0,0,0, 0.7);  
 }
 .dowload-app .dowload:hover,
 .playlist:hover,
@@ -322,13 +337,11 @@ ul{
 .icon-footer-second:hover{
     font-size: 20px;
 }
-/*
-.my-bar-first:hover .bal-bar-first,
-.my-bar-second:hover .bal-bar-second{
+
+.chic-one:hover .bal-bar-first,
+.progress-bar:hover .bal-bar-second{
     display: block;
 }
-*/
-
 /*RANDOM*/
 .color-white{
     color: white;
