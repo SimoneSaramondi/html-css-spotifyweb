@@ -154,6 +154,28 @@ ul{
     position: relative;
     top: calc(100% - 200px);
 }
+.bal-bar-second{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(156, 199, 240);
+    border-radius: 50% ;
+    position: absolute;
+    bottom: 5px;
+    left: 80px;
+  /*  display: none;*/
+    
+}
+.bal-bar-first{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(156, 199, 240);
+    border-radius: 50% ;
+    position: absolute;
+    bottom: 5px;
+    left: 230px;
+    /*display: none;*/
+    
+}
 @media all and (max-width: 767px){
     .logo-small-spotify{
         display: block;
@@ -196,6 +218,7 @@ ul{
         left: -6px;
     }
     
+    
 }
 @media all and (min-width:768px) and (max-width: 991px){
     .play{
@@ -212,6 +235,58 @@ ul{
     .footer-p{
         font-size: 15px;
     }
+    .bal-bar-second{
+        height: 20px;
+        width: 20px;
+        background-color: rgb(156, 199, 240);
+        border-radius: 50% ;
+        position: absolute;
+        bottom: 5px;
+        left: 20px;
+      /*  display: none;*/
+        
+    }
+    .bal-bar-first{
+        height: 20px;
+        width: 20px;
+        background-color: rgb(156, 199, 240);
+        border-radius: 50% ;
+        position: absolute;
+        bottom: 5px;
+        left: 180px;
+        /*display: none;*/
+        
+    }
+    
+}
+@media all and (min-width: 992px) and (max-width: 1204px){
+    .bal-bar-second{
+        height: 20px;
+        width: 20px;
+        background-color: rgb(156, 199, 240);
+        border-radius: 50% ;
+        position: absolute;
+        bottom: 5px;
+        left: 30px;
+      /*  display: none;*/
+        
+    }
+    .bal-bar-first{
+        height: 20px;
+        width: 20px;
+        background-color: rgb(156, 199, 240);
+        border-radius: 50% ;
+        position: absolute;
+        bottom: 5px;
+        left: 200px;
+        /*display: none;*/        
+    }
+    .footer-h4,
+    .footer-p{
+        font-size: 15px;
+        position: relative;
+        left: 10px;
+    }
 }
 
 
@@ -224,15 +299,15 @@ ul{
 }
 .block-music div:hover .play-circle{
    display: block;
-   width: 25px;
-   position: relative;
-   bottom: 75px;
-   left: 45px;
-   font-size: 30px;
+   width: 45px;
+   position: absolute;
+   bottom: 100px;
+   left: 80px;
+   font-size: 50px;
    background-color: rgba(0,0,0, 0.7);
-   background-size: 200px;
+  
 }
-.dowload-app:hover,
+.dowload-app .dowload:hover,
 .playlist:hover,
 .mia-playlist:hover,
 .made-playlist li:hover,
@@ -241,8 +316,18 @@ ul{
     color: white;
     text-decoration: none;
 }
-
-
+.icon-footer:hover{
+    font-size: 30px;
+}
+.icon-footer-second:hover{
+    font-size: 20px;
+}
+/*
+.my-bar-first:hover .bal-bar-first,
+.my-bar-second:hover .bal-bar-second{
+    display: block;
+}
+*/
 
 /*RANDOM*/
 .color-white{
