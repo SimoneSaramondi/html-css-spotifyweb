@@ -296,7 +296,7 @@ ul{
         position: absolute;
         bottom: 5px;
         left: 200px;
-        display: none;*       
+        display: none;       
     }
     .footer-h4,
     .footer-p{
@@ -363,3 +363,71 @@ ul{
 .background-color-black-soft{
     background-color: rgb(20, 25, 34);
 }
+.my-first-padding{
+    padding-left: 20px;
+}
+
+/* INIZIO Parte centrale delle canzoni*/
+
+.musica{
+    overflow-y: scroll;
+    height: calc(100vh - 180px);
+}
+
+.box-musica{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+}
+.box-musica:hover i{
+    display: block;
+}
+.box-musica i{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: xx-large;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.box-musica-third{
+    border-radius: 50%;
+}
+.testi{
+    text-align: center;
+    max-width: 100%;
+}
+.box-musica-primo{
+    background-image: url(img/metal_lifting.jpg) ;
+}
+.box-musica-secondo{
+    background-image: url(img/stranger.jpeg) ;
+}
+.box-musica-terzo{
+    background-image: url(img/aquietplace.jpeg) ;
+}
+.box-musica-quarto{
+    background-image: url(img/split.jpeg) ;
+}
+.box-musica-quinto{
+    background-image: url(img/cure.jpeg) ;
+}
+.box-musica-sesto{
+    background-image: url(img/sinister.jpeg) ;
+}
+.box-musica-settimo{
+    background-image: url(img/radar.jpeg) ;
+}
+.box-musica-ottavo{
+    background-image: url(img/mixdaily.jpeg) ;
+}
+.box-musica-nono{
+    background-image: url(img/youg.jpeg) ;
+}
+.box-musica-decimo{
+    background-image: url(img/einaudi.jpeg) ;
+}
+/* FINE Parte centrale delle canzoni*/
