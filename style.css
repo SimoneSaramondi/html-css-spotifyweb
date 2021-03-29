@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 .choose-bar{
-    background-color:rgb(202, 59, 59);
     width: 250px;
     float: left;
     padding: 20px 20px 0 20px;
@@ -33,9 +32,7 @@
     display: table;
     clear: both;
 }
-.music-list{
-    background-color: darksalmon;
-    
+.music-list{    
     width: 500px;
     margin: auto;
     margin-bottom: 0;
@@ -43,10 +40,6 @@
 .music-list ul{
     padding: 5px;
     margin-bottom: 0;
-}
-.overflow h5,
-.overflow h6{
-    text-align: center;
 }
 ul{
     list-style-type: none;    
@@ -78,24 +71,21 @@ ul{
     background-color: black;
     z-index: 2;
 }
+.dowload{
+    cursor: pointer;
+}
+#my-dowload{
+    position: absolute;
+    bottom: 70px;
+    width:200px;
+}
 .first-list{
     margin-top: 10px;
-}
-.block-music img{
-    max-width: 100%;
-    margin: 5px;
-}
-.overflow{
-    overflow-y: scroll;
-    height: calc(100vh - 100px);  
-    background-color: lightblue;
+    cursor: pointer;
 }
 .row{
     width: 100%;
     padding: 20px;
-}
-.block-music-third img{
-    border-radius: 50%;
 }
 .my-bar{
     height: 10px;
@@ -104,43 +94,6 @@ ul{
 }
 .blocco-superiore{
     height: calc(100vh - 80px);
-}
-
-.footer{
-    background-color: rgb(40, 40, 40);
-   /* padding: 10px 0;*/
-    height: 80px; 
-    position: fixed; 
-    width: 100%;
-}
-/*
-.box-footer{
-    height: 60px;
-    width: 60px;
-}
-.box-footer img{
-    width: 100%;
-}*/
-.icon{
-    font-size: 25px;
-    position: relative;
-    top: 20px;
-}
-.chic-one{
-    height: 30px;
-}
-.play{
-    position: relative;
-    left: 15px;
-    font-size: 25px;
-}
-.ultima-colonna{
-    position: relative;
-    top: 20px;
-}
-.ultima-colonna-barra{
-    position: relative;
-    bottom: 5px;
 }
 .logo-small-spotify{
     height: 50px;
@@ -156,28 +109,6 @@ ul{
     height: 30px;
     position: relative;
     top: calc(100% - 200px);
-}
-.bal-bar-second{
-    height: 20px;
-    width: 20px;
-    background-color: rgb(156, 199, 240);
-    border-radius: 50% ;
-    position: absolute;
-    bottom: 5px;
-    left: 80px;
-   display: none;
-    
-}
-.bal-bar-first{
-    height: 20px;
-    width: 20px;
-    background-color: rgb(156, 199, 240);
-    border-radius: 50% ;
-    position: absolute;
-    bottom: 5px;
-    left: 230px;
-    display: none;
-    
 }
 @media all and (max-width: 767px){
     .logo-small-spotify{
@@ -198,131 +129,17 @@ ul{
     .principale{
         width: calc(100% - 80px);
     }
-    .box-footer{
-        width: 30px;
-        height: 30px;
-        position: relative;
-        top: 10px;
-    }
-    .footer-h4,
-    .footer-p{
-        font-size: 12px;
-    }
-    .chic-one div{
-        position: relative;
-        right: 20px;
-    }
-    .chic-one .my-bar{
-        position: relative;
-        left: 3px;
-    }
-    .play{
-        position: relative;
-        left: -6px;
-    }
-    .bal-bar-second{
-        height: 15px;
-        width: 15px;
-        background-color: rgb(156, 199, 240);
-        border-radius: 50% ;
-        position: absolute;
-        bottom: 7px;
-        left: 23px;
-        display: none;
-        
-    }
-    .bal-bar-first{
-        height: 15px;
-        width: 15px;
-        background-color: rgb(156, 199, 240);
-        border-radius: 50% ;
-        position: absolute;
-        bottom: 22px;
-        left: 110px;
-        display: none;        
-    } 
 }
-@media all and (min-width:768px) and (max-width: 991px){
-    .play{
-        position: relative;
-        left: 5px;
-    }
-    .box-footer{
-        width: 40px;
-        height: 40px;
-        position: relative;
-        top: 10px;
-    }
-    .footer-h4,
-    .footer-p{
-        font-size: 15px;
-    }
-    .bal-bar-second{
-        height: 20px;
-        width: 20px;
-        background-color: rgb(156, 199, 240);
-        border-radius: 50% ;
-        position: absolute;
-        bottom: 5px;
-        left: 20px;
-        display: none;
-        
-    }
-    .bal-bar-first{
-        height: 20px;
-        width: 20px;
-        background-color: rgb(156, 199, 240);
-        border-radius: 50% ;
-        position: absolute;
-        bottom: 5px;
-        left: 180px;
-        display: none;        
-    }    
-}
-@media all and (min-width: 992px) and (max-width: 1204px){
-    .bal-bar-second{
-        height: 20px;
-        width: 20px;
-        background-color: rgb(156, 199, 240);
-        border-radius: 50% ;
-        position: absolute;
-        bottom: 5px;
-        left: 30px;
-        display: none;        
-    }
-    .bal-bar-first{
-        height: 20px;
-        width: 20px;
-        background-color: rgb(156, 199, 240);
-        border-radius: 50% ;
-        position: absolute;
-        bottom: 5px;
-        left: 200px;
-        display: none;       
-    }
-    .footer-h4,
-    .footer-p{
-        font-size: 15px;
-        position: relative;
-        left: 10px;
-    }
-}
-
 /*HOVER*/
 .upgrade-button:hover{
     width: 150px;
 }
-.play-circle{
-    display: none;
-}
-.block-music div:hover .play-circle{
-   display: block;
-   width: 45px;
-   position: absolute;
-   bottom: 100px;
-   left: 80px;
-   font-size: 50px;
-   background-color: rgba(0,0,0, 0.7);  
+.logo-small-spotify .home:hover,
+.logo-small-spotify .search:hover,
+.logo-small-spotify .library:hover,
+.logo-small-spotify .dowload:hover,
+.logo-small-spotify .profile:hover{
+    background-color: rgb(165, 214, 198);
 }
 .dowload-app .dowload:hover,
 .playlist:hover,
@@ -341,17 +158,6 @@ ul{
     text-decoration: none;
     border-bottom: 1px solid rgb(100, 211, 100);
 }
-.icon-footer:hover{
-    font-size: 30px;
-}
-.icon-footer-second:hover{
-    font-size: 20px;
-}
-
-.chic-one:hover .bal-bar-first,
-.progress-bar:hover .bal-bar-second{
-    display: block;
-}
 /*RANDOM*/
 .color-white{
     color: white;
@@ -368,9 +174,7 @@ ul{
 .my-first-padding{
     padding-left: 20px;
 }
-
 /* INIZIO Parte centrale delle canzoni*/
-
 .musica{
     overflow-y: scroll;
     height: calc(100vh - 180px);
@@ -433,8 +237,13 @@ ul{
     background-image: url(img/einaudi.jpeg) ;
 }
 /* FINE Parte centrale delle canzoni*/
-
 /*INIZIO Footer*/
+.footer{
+    background-color: rgb(40, 40, 40);
+    height: 80px; 
+    position: fixed; 
+    width: 100%;
+}
 .playing-bar{
     display: flex;
     justify-content: space-between;

@@ -28,9 +28,10 @@
                 </ul>
             </div>
             <div class="logo-small-spotify">
-                <a class="icon-footer" href="#"><img  src="img/home.svg" alt="Home"></a>
-                <a class="icon-footer" href="#"><img  src="img/search.svg" alt="Search"></a>
-                <a class="icon-footer" href="#"><img  src="img/libreria.svg" alt="Libreria"></a>
+            <img class="home" src="img/home.svg" alt="Home">
+            <img class="search" src="img/search.svg" alt="Search">
+            <img class="library" src="img/libreria.svg" alt="Library">
+
             </div>
             <h3 class="playlist color-white">PLAYLIST</h3>
             <div class="clearfix mia-playlist">
@@ -48,13 +49,13 @@
                     <li>Nome playlist</li>                 
                 </ul>
             </div>
-            <ul class="dowload-app">
+            <ul class="dowload-app" id="my-dowload">
                 <li class="dowload"><i class="fa fa-download"></i> Dowload app</li>
                 <li><h5>John Doe</h5></li>
             </ul>
             <div class="logo-small-spotify profile">
-                <a href="#"><img src="img/download.svg" alt="Dowload"></a>
-                <a href="#"><img src="img/profile.svg" alt="Profile"></a>
+                <img class="dowload" src="img/download.svg" alt="Dowload">
+                <img class="profile" src="img/profile.svg" alt="Profile">
             </div>
         </div>
         <div class="principale clearfix background-color-black-soft">
@@ -83,7 +84,7 @@
                                 <i class="fa fa-play-circle"></i>
                             </div>
                             <div class="testi">
-                                <h4 class="color-white">A quiet place</h4>
+                                <h4 class="color-white">Metallica</h4>
                                 <p class="color-lightgrey">subtitle</p>
                             </div>
                         </div>
@@ -92,7 +93,7 @@
                                 <i class="fa fa-play-circle"></i>
                             </div>
                             <div class="testi">
-                                <h4 class="color-white">A quiet place</h4>
+                                <h4 class="color-white">Stranger Things .Vol-2</h4>
                                 <p class="color-lightgrey">subtitle</p>
                             </div>
                         </div>
@@ -110,7 +111,7 @@
                                 <i class="fa fa-play-circle"></i>
                             </div>
                             <div class="testi">
-                                <h4 class="color-white">A quiet place</h4>
+                                <h4 class="color-white">Split</h4>
                                 <p class="color-lightgrey">subtitle</p>
                             </div>
                         </div>
@@ -119,7 +120,7 @@
                                 <i class="fa fa-play-circle"></i>
                             </div>
                             <div class="testi">
-                                <h4 class="color-white">A quiet place</h4>
+                                <h4 class="color-white">A cure for wellness</h4>
                                 <p class="color-lightgrey">subtitle</p>
                             </div>
                         </div>
@@ -128,7 +129,7 @@
                                 <i class="fa fa-play-circle"></i>
                             </div>
                             <div class="testi">
-                                <h4 class="color-white">A quiet place</h4>
+                                <h4 class="color-white">Sinister</h4>
                                 <p class="color-lightgrey">subtitle</p>
                             </div>
                         </div>
@@ -138,13 +139,14 @@
 
                 <div class="row">
                     <h3 class="my-first-padding color-white">Creato per John Doe</h3>
+                    <p class="color-lightgrey my-first-padding">Più ascolti, più accurati saranno i suggerimenti</p>
                     <div class="col-lg-12">
                         <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
                             <div class="box-musica box-musica-settimo">
                                 <i class="fa fa-play-circle"></i>
                             </div>
                             <div class="testi">
-                                <h4 class="color-white">A quiet place</h4>
+                                <h4 class="color-white">Release</h4>
                                 <p class="color-lightgrey">subtitle</p>
                             </div>
                         </div>
@@ -153,7 +155,7 @@
                                 <i class="fa fa-play-circle"></i>
                             </div>
                             <div class="testi">
-                                <h4 class="color-white">A quiet place</h4>
+                                <h4 class="color-white">Daily mixe</h4>
                                 <p class="color-lightgrey">subtitle</p>
                             </div>
                         </div>
@@ -166,13 +168,14 @@
 
                 <div class="row">
                     <h3 class="my-first-padding color-white">Artisti più popolari</h3>
+                    <p class="color-lightgrey my-first-padding">Più ascolti, più accurati saranno i suggerimenti</p>
                     <div class="col-lg-12">
                         <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
                             <div class="box-musica box-musica-third box-musica-nono">
                                 <i class="fa fa-play-circle"></i>
                             </div>
                             <div class="testi">
-                                <h4 class="color-white">A quiet place</h4>
+                                <h4 class="color-white">Lana del Rey</h4>
                                 <p class="color-lightgrey">subtitle</p>
                             </div>
                         </div>
@@ -181,7 +184,7 @@
                                 <i class="fa fa-play-circle"></i>
                             </div>
                             <div class="testi">
-                                <h4 class="color-white">A quiet place</h4>
+                                <h4 class="color-white">Enaudi</h4>
                                 <p class="color-lightgrey">subtitle</p>
                             </div>
                         </div>
@@ -192,122 +195,11 @@
                     </div>
                 </div>
             </div>
-
-
-
-
-<!--
-            <div class="overflow background-color-black-soft">
-
-                <div class="row">
-                    <div class="block-music color-white">
-                        <h3>Recently played</h3>
-                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-                            <img src="img/aquietplace.jpeg" alt="">
-                            <i class="fa fa-play-circle play-circle"></i>
-                            <h5>Heavy metal</h5>
-                            <h6>subtitle</h6>
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-                            <img src="img/cure.jpeg" alt="">
-                            <i class="fa fa-play-circle play-circle"></i>
-                            <h5>Strange thinks vol.1</h5>
-                            <h6>Kile Dixon & Michael Stain</h6>
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-                            <img src="img/metal_lifting.jpg" alt="">
-                            <i class="fa fa-play-circle play-circle"></i>
-                            <h5>A quiet place</h5>
-                            <h6>subtitle</h6>
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-                            <img src="img/player_left.jpg" alt="">
-                            <i class="fa fa-play-circle play-circle"></i>
-                            <h5>Split</h5>
-                            <h6>subtitle</h6>
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-                            <img src="img/sinister.jpeg" alt="">
-                            <i class="fa fa-play-circle play-circle"></i>
-                            <h5>A cure for wellnes</h5>
-                            <h6>subtitle</h6>
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-                            <img src="img/split.jpeg" alt="">
-                            <i class="fa fa-play-circle play-circle"></i>
-                            <h5>Sinister</h5>
-                            <h6>subtitle</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="block-music color-white">                        
-                        <h3>Creato per John Doe</h3>
-                        <p>Più ascolti, più saranno precisi i suggerimenti</p>
-                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-                            <img src="img/mixdaily.jpeg" alt="">
-                            <i class="fa fa-play-circle play-circle"></i>
-                            <h5>Daily mix</h5>
-                            <h6>subtitle</h6>
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-                            <img src="img/radar.jpeg" alt="">
-                            <i class="fa fa-play-circle play-circle"></i>
-                            <h5>Release</h5>
-                            <h6>subtitle</h6>
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-                            
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-                            
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-                            
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="block-music block-music-third color-white">
-                        <h3>Artisti più popolari</h3>
-                        <p>Più ascolti, più saranno precisi i suggerimenti</p>
-                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-                            <img src="img/youg.jpeg" alt="">
-                            <i class="fa fa-play-circle play-circle"></i>
-                            <h5>title</h5>
-                            <h6>subtitle</h6>
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-                            <img src="img/einaudi.jpeg" alt="">
-                            <i class="fa fa-play-circle play-circle"></i>
-                            <h5>title</h5>
-                            <h6>subtitle</h6>
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-                            
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-                            
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-                            
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-                            
-                        </div>
-                    </div>
-                </div>            
-                                 
-            </div> -->          
         </div>   
      </div>   
     </main>
     
     <div class="footer">
-
         <div class="container-fluid">
             <div class="playing-bar">
               <div class="current-play">
@@ -347,68 +239,7 @@
                 </div>
               </div>  
             </div>
-          </div>
-
-
-
-        <!--
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                <div class="box-footer">                
-                    <img src="img/aquietplace.jpeg" alt="Immagine footer-box">
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                <h4 class="center-block footer-h4 color-white">Aquietoplace</h4>
-                <p class="center-block footer-p color-white">Subtitle</p>
-            </div>                    
-            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"><i class="fa fa-heart icon color-white icon-footer"></i></div>
-            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"><i class="fa fa-folder icon color-white icon-footer"></i></div>
-                
-            
-        </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-            <div class="chic-one">
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
-                <div class="col-lg-1 col-ms-1 col-sm-1 col-xs-1"><i class="fa fa-random color-white icon-footer-second"></i></div>
-                <div class="col-lg-1 col-ms-1 col-sm-1 col-xs-1"><i class="fa fa-step-backward color-white icon-footer-second"></i></div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><i class="fa fa-play-circle play color-white icon-footer-second"></i></div>
-                <div class="col-lg-1 col-ms-1 col-sm-1 col-xs-1"><i class="fa fa-step-forward color-white icon-footer-second"></i></div>
-                <div class="col-lg-1 col-ms-1 col-sm-1 col-xs-1"><i class="fa fa-history color-white icon-footer-second"></i></div>
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
-            </div>
-            <div class="chic-one">
-                <div class="progress my-bar ">
-                    <div class="progress-bar " role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                      <span class="sr-only ">60% Complete</span>
-                    </div>
-                </div>
-                <div class="bal-bar-first"></div>
-            </div>
-        </div>
-            
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ultima-colonna">
-            
-            <div class="col-lg-4 col-ms-3 col-sm-3 col-xs-3"></div>
-            <div class="col-lg-1 col-ms-1 col-sm-1 col-xs-1"><i class="fa fa-list color-white icon-footer-second"></i></div>
-            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"><i class="fa fa-desktop color-white icon-footer-second"></i></div>
-            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"><i class="fa fa-volume-up color-white icon-footer-second"></i></div>
-            <div class="col-lg-5 col-ms-4 col-sm-3 col-xs-3 ultima-colonna-barra">
-                <div class="progress my-bar my-bar-second ">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                      <span class="sr-only">60% Complete</span>
-                    </div>
-                    
-                </div>
-                <div class="bal-bar-second"></div>
-            </div>
-                
-        </div> -->
-        
-    </div>
-    
-
-   
+          </div>        
+    </div> 
 </body>
 </html>
