@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*INIZIO parte superiore*/
 .choose-bar{
     width: 250px;
     float: left;
@@ -111,6 +112,7 @@ ul{
     position: relative;
     top: calc(100% - 200px);
 }
+/*FINE parte superiore*/
 @media all and (max-width: 767px){
     .logo-small-spotify{
         display: block;
