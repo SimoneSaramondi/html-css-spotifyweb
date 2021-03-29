@@ -59,7 +59,8 @@ ul{
     padding-top: 8px;
 }
 .made-playlist{
-    overflow-y: scroll;
+    overflow-y: auto;
+    height: 30%;
 }
 .dowload-app li:first-of-type{
     border-bottom: 1px solid;
