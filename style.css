@@ -374,3 +374,32 @@ ul{
     margin-right: 2px;
 } 
 /*FINE Footer*/
+
+.song{
+    background-color: coral;
+    border: 1px solid;
+    width: 180px;
+    margin: 1px;
+    padding: 2px;
+    height: 275px;
+    float: left;
+}
+.immagine{
+    width: 100%;
+    height: 180px;
+    background-image: url(img/aquietplace.jpeg);
+    background-size: cover;
+}
+.status{
+    background-color: bisque;
+}
+.titolo{
+    text-align: center;
+    font-size: 17px;
+}
+.sottotitolo{
+    text-align: center;
+}
+.terzo-blocco .immagine{
+    border-radius: 50%;
+}
