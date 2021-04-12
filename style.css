@@ -388,12 +388,40 @@ ul{
     width: 100%;
     height: 175px;
     background-size: cover;
-    background-image: none;
-}
-.immagine:hover{
-    background-image: url(img/play-img-svg.png);
+    background-image: none;    
 }
 .immagine img{
+    max-width: 100%;
+    display: none;
+}
+.immagine:hover img{
+    display: block;
+}
+.prima-immagine{
+    background-image: url(img/metal_lifting.jpg);
+}
+.seconda-immagine{
+    background-image: url(img/stranger.jpeg);
+}
+.terza-immagine{
+    background-image: url(img/aquietplace.jpeg);
+}
+.quarta-immagine{
+    background-image: url(img/split.jpeg);
+}
+.quinta-immagine{
+    background-image: url(img/cure.jpeg);
+}
+.sesta-immagine{
+    background-image: url(img/sinister.jpeg);
+}
+.settima-immagine{
+    background-image: url(img/radar.jpeg);
+}
+.ottava-immagine{
+    background-image: url(img/mixdaily.jpeg);
+}
+.background-img{
     max-width: 100%;
 }
 .titolo{
